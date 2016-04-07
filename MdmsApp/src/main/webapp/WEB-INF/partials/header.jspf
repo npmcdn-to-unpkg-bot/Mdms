@@ -1,0 +1,96 @@
+<header id="topnav" class="navbar navbar-default navbar-fixed-top" role="banner">
+	<!-- <div id="page-progress-loader" class="show"></div> -->
+
+	<div class="logo-area">
+		<a class="navbar-brand navbar-brand-success" href="index.html">
+			<img class="show-on-collapse img-logo-white" alt="Paper" src="assets/img/logo-icon-white.png">
+			<img class="show-on-collapse img-logo-dark" alt="Paper" src="assets/img/logo-icon-dark.png">
+			<img class="img-white" alt="Paper" src="assets/img/logo-white.png">
+			<img class="img-dark" alt="Paper" src="assets/img/logo-dark.png">
+		</a>
+
+		<span style="display:block !important;float: left;" id="trigger-sidebar" class="toolbar-trigger toolbar-icon-bg stay-on-search">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg">
+					<i class="material-icons">menu</i>
+				</span>
+			</a>
+		</span>
+		<span class="tool-bar toolbar-trigger toolbar-icon-bg ov-h">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg">
+					<i class="material-icons" style="color:#ffc72c;">folder</i>
+				</span>
+			</a>
+		</span>
+
+		<span class="tool-bar toolbar-trigger toolbar-icon-bg ov-h">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg" style="color:#003da5;">
+					M <i class="material-icons" style="font-size:12px;margin-left:-5px;margin-top:-12px;color:#003da5;">exposure_plus_1</i>
+				</span>
+			</a>
+		</span>
+
+		<span class="tool-bar toolbar-trigger toolbar-icon-bg ov-h">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg" style="color:#C99ECC;">
+					P <i class="material-icons" style="font-size:12px;margin-left:-5px;margin-top:-12px;color:#C99ECC;">exposure_plus_1</i>
+				</span>
+			</a>
+		</span>
+		<span class="tool-bar toolbar-trigger toolbar-icon-bg ov-h">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg">
+					<i class="material-icons" style="color:#ed8b00;">cancel</i>
+				</span>
+			</a>
+		</span>
+
+		<span class="tool-bar toolbar-trigger toolbar-icon-bg ov-h">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg" style="color:#FFF;">
+					<i class="material-icons" style="margin-right:-16.5px;color:#279989;">insert_drive_file</i>x
+				</span>
+			</a>
+		</span>
+
+		<span class="tool-bar toolbar-trigger toolbar-icon-bg ov-h">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg">
+					<i class="material-icons" style="color:rgba(218,41,28,0.6);">picture_as_pdf</i>
+				</span>
+			</a>
+		</span>
+
+		<span class="tool-bar toolbar-trigger toolbar-icon-bg ov-h">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg">
+					<i class="material-icons" style="color:#8bb8e8;">print</i>
+				</span>
+			</a>
+		</span>
+
+		<span class="tool-bar toolbar-trigger toolbar-icon-bg ov-h">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg" style="color:#FFF;font-size:9px;">
+					<i class="material-icons" style="margin-right: -19px;color:#6cc24a;">insert_drive_file</i>-30
+				</span>
+			</a>
+		</span>
+
+	</div><!-- logo-area -->
+
+	<ul class="nav navbar-nav toolbar pull-right">
+
+		<li class="tool-col toolbar-icon-bg" id="trigger-infobar">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg">
+					<i class="material-icons">more_vert</i>
+				</span>
+			</a>
+		</li>
+		
+	</ul>
+
+</header>

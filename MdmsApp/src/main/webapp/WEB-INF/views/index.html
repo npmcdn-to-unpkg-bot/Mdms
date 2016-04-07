@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Paper - Material Admin Theme</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="description" content="Paper - Material Admin Theme">
+    <meta name="author" content="KaijuThemes">
+
+    <link rel="shortcut icon" href="assets/img/logo-icon-dark.png">
+
+    <link type='text/css' href='http://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500' rel='stylesheet'>
+    <link type='text/css'  href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet"> 
+
+    <link href="assets/fonts/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">        <!-- Font Awesome -->
+    <link href="assets/css/styles.css" type="text/css" rel="stylesheet">                                     <!-- Core CSS with all styles -->
+
+    <link href="assets/plugins/codeprettifier/prettify.css" type="text/css" rel="stylesheet">                <!-- Code Prettifier -->
+
+    <link href="assets/plugins/dropdown.js/jquery.dropdown.css" type="text/css" rel="stylesheet">            <!-- iCheck -->
+    <link href="assets/plugins/progress-skylo/skylo.css" type="text/css" rel="stylesheet">                   <!-- Skylo -->
+
+    <!--[if lt IE 10]>
+        <script src="assets/js/media.match.min.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+        <script src="assets/js/placeholder.min.js"></script>
+    <![endif]-->
+    <!-- The following CSS are included as plugins and can be removed if unused-->
+    
+
+    </head>
+
+    <body class="animated-content infobar-overlay">
+        
+        
+<header id="topnav" class="navbar navbar-default navbar-fixed-top" role="banner">
+	<!-- <div id="page-progress-loader" class="show"></div> -->
+
+	<div class="logo-area">
+		<a class="navbar-brand navbar-brand-success" href="index.html">
+			<img class="show-on-collapse img-logo-white" alt="Paper" src="assets/img/logo-icon-white.png">
+			<img class="show-on-collapse img-logo-dark" alt="Paper" src="assets/img/logo-icon-dark.png">
+			<img class="img-white" alt="Paper" src="assets/img/logo-white.png">
+			<img class="img-dark" alt="Paper" src="assets/img/logo-dark.png">
+		</a>
+
+		<span style="display:block !important;float: left;" id="trigger-sidebar" class="toolbar-trigger toolbar-icon-bg stay-on-search">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg">
+					<i class="material-icons">menu</i>
+				</span>
+			</a>
+		</span>
+		<span class="tool-bar toolbar-trigger toolbar-icon-bg ov-h">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg">
+					<i class="material-icons" style="color:#ffc72c;">folder</i>
+				</span>
+			</a>
+		</span>
+
+		<span class="tool-bar toolbar-trigger toolbar-icon-bg ov-h">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg" style="color:#003da5;">
+					M <i class="material-icons" style="font-size:12px;margin-left:-5px;margin-top:-12px;color:#003da5;">exposure_plus_1</i>
+				</span>
+			</a>
+		</span>
+
+		<span class="tool-bar toolbar-trigger toolbar-icon-bg ov-h">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg" style="color:#C99ECC;">
+					P <i class="material-icons" style="font-size:12px;margin-left:-5px;margin-top:-12px;color:#C99ECC;">exposure_plus_1</i>
+				</span>
+			</a>
+		</span>
+		<span class="tool-bar toolbar-trigger toolbar-icon-bg ov-h">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg">
+					<i class="material-icons" style="color:#ed8b00;">cancel</i>
+				</span>
+			</a>
+		</span>
+
+		<span class="tool-bar toolbar-trigger toolbar-icon-bg ov-h">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg" style="color:#FFF;">
+					<i class="material-icons" style="margin-right:-16.5px;color:#279989;">insert_drive_file</i>x
+				</span>
+			</a>
+		</span>
+
+		<span class="tool-bar toolbar-trigger toolbar-icon-bg ov-h">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg">
+					<i class="material-icons" style="color:rgba(218,41,28,0.6);">picture_as_pdf</i>
+				</span>
+			</a>
+		</span>
+
+		<span class="tool-bar toolbar-trigger toolbar-icon-bg ov-h">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg">
+					<i class="material-icons" style="color:#8bb8e8;">print</i>
+				</span>
+			</a>
+		</span>
+
+		<span class="tool-bar toolbar-trigger toolbar-icon-bg ov-h">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg" style="color:#FFF;font-size:9px;">
+					<i class="material-icons" style="margin-right: -19px;color:#6cc24a;">insert_drive_file</i>-30
+				</span>
+			</a>
+		</span>
+
+	</div><!-- logo-area -->
+
+	<ul class="nav navbar-nav toolbar pull-right">
+
+		<li class="tool-col toolbar-icon-bg" id="trigger-infobar">
+			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
+				<span class="icon-bg">
+					<i class="material-icons">more_vert</i>
+				</span>
+			</a>
+		</li>
+		
+	</ul>
+
+</header>
+
+        <div id="wrapper">
+            <div id="layout-static">
+                <div class="static-sidebar-wrapper sidebar-bleachedcedar">
+                    <div class="static-sidebar">
+                        <div class="sidebar">
+	<div class="widget" id="widget-profileinfo">
+        <div class="widget-body">
+            <div class="userinfo ">
+                <div class="avatar pull-left">
+                    <img src="assets/demo/avatar/avatar_15.png" class="img-responsive img-circle"> 
+                </div>
+                <div class="info">
+                    <span class="username">Jonathan Smith</span>
+                    <span class="useremail">jon@paperadmin.com</span>
+                </div>
+
+                <div class="acct-dropdown clearfix dropdown">
+                    <span class="pull-left"><span class="online-status online"></span>Online</span>
+                    <!-- <span class="pull-right dropdown-toggle" data-toggle="dropdown"><a href="javascript:void(0)" class="btn btn-fab-caret btn-xs btn-fab"><i class="material-icons">arrow_drop_down</i><div class="ripple-container"></div></a></span>
+                    <ul class="dropdown-menu">
+                        <li><span class="online-status online"></span> Online</li>
+                        <li><span class="online-status online"></span> Online</li>
+                        <li><span class="online-status online"></span> Online</li>
+                        <li><span class="online-status online"></span> Online</li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+	<div class="widget stay-on-collapse" id="widget-sidebar">
+        <nav role="navigation" class="widget-body">
+	<ul class="acc-menu">
+		<li class="nav-separator"><span>Navigation</span></li>
+		<li><a  class="withripple" href="#!"><span class="icon">
+		<i class="material-icons">home</i></span><span>Summary</span></a></li>
+
+		<li><a  class="withripple" href="#!"><span class="icon">
+		<i class="material-icons">email</i></span><span>Contact</span><span class="badge badge-teal">2</span></a></li>
+
+		<li><a  class="withripple" href="#!"><span class="icon">
+		<i class="material-icons">local_hospital</i></span><span>Mother Insurance</span></a></li>
+
+		<li><a  class="withripple" href="#!"><span class="icon">
+		<i class="material-icons">perm_contact_calendar</i></span><span>Referral Information</span></a></li>
+
+		<li><a  class="withripple" href="#!"><span class="icon">
+		<i class="material-icons">pregnant_woman</i></span><span>Pregnancy</span></a></li>
+
+		<li><a  class="withripple" href="#!"><span class="icon">
+		<i class="material-icons">face</i></span><span>Fetal Scheduling</span></a></li>
+
+		<li><a  class="withripple" href="#!"><span class="icon">
+		<i class="material-icons">card_travel</i></span><span>Fetal Visits</span></a></li>
+
+		<li><a  class="withripple" href="#!"><span class="icon">
+		<i class="material-icons">date_range</i></span><span>Delivery Plan</span></a></li>
+
+		<li><a  class="withripple" href="#!"><span class="icon">
+		<i class="material-icons">history</i></span><span>Records</span></a></li>
+
+
+		<li><a  class="withripple" href="javascript:;"><span class="icon"><i class="material-icons">accessibility</i></span><span>Infant(s) Options</span></a>
+			<ul class="acc-menu">
+				<li><a  class="withripple" href="#!">Infant(s)</a></li>
+				<li><a  class="withripple" href="#!">Infant(s) Insurance</a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+    </div>
+</div>
+                    </div>
+                </div>
+                <div class="static-content-wrapper">
+                    <div class="static-content">
+                        <div class="page-content">
+                            <ol class="breadcrumb">
+                                
+<li><a href="index.php">Home</a></li>
+
+                            </ol>
+                            <div class="page-heading">            
+                               
+                               <h1>Contact Tab</h1>
+                           </div>
+                            <div class="container-fluid">
+                                
+<div data-widget-group="group1">
+	<div class="row">
+		<div class="col-sm-12">
+			<!-- <div class="alert alert-inverse">
+				Use the <strong>same</strong> code as you would in <a class="alert-link" href="http://getbootstrap.com/">Twitter's Bootstrap</a>!
+				<button type="button" class="close" data-dismiss="alert">&times;</button>
+			</div> -->
+			<div class="panel panel-primary" data-widget='{"draggable": "false"}'>
+				<div class="panel-heading">
+					<h2>CONTACT INFORMATION</h2>
+					<!-- <div class="panel-ctrls" data-actions-container="" data-action-collapse='{"target": ".panel-body, .panel-footer"}'></div> -->
+					<div class="options">
+						<ul class="nav nav-tabs">
+			              <li class="active"><a href="#horizontal-form" data-toggle="tab">Mother Information</a></li>
+			              <li><a href="#bordered-row" data-toggle="tab">Father Information</a></li>
+			              <li><a href="#tabular-form" data-toggle="tab">Other Contact</a></li>
+			            </ul>
+					</div>
+				</div>
+				<div class="panel-body">
+					<div class="tab-content">
+						<div class="tab-pane active" id="horizontal-form">
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label for="selector1" class="col-sm-2 control-label">Status</label>
+										<div class="col-sm-8">
+											<select name="selector1" id="selector1" class="select form-control" placeholder="">
+												<option selected>New Referal</option>
+												<option>First option</option>
+												<option>Second option</option>
+												<option>And another one</option>
+											</select>
+										</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Last Name</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">First Name</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Middle Name</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Maiden Name</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="selector1" class="col-sm-2 control-label">Marital Status</label>
+										<div class="col-sm-8">
+											<select name="selector1" id="selector1" class="select form-control" placeholder="">
+												<option selected></option>
+												<option>First option</option>
+												<option>Second option</option>
+												<option>And another one</option>
+											</select>
+										</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Nickname</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Date of birth</label>
+									<div class="col-sm-8">
+										<div class="input-group">
+											<input type="text" class="form-control">
+											<span class="input-group-addon">MMDDYYYY</span>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Age</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">MR</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<br>
+								<div class="form-group">
+									<h5 for="focusedinput" class="col-sm-2 control-label">Address</h5>
+									
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Street</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Apt</label>
+									<div class="col-sm-8">
+										<div class="input-group">
+											<input type="text" class="form-control">
+											<span class="input-group-addon">ex. Apt 1017</span>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">City</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="selector1" class="col-sm-2 control-label">State</label>
+										<div class="col-sm-8">
+											<select name="selector1" id="selector1" class="select form-control" placeholder="">
+												<option selected></option>
+												<option>First option</option>
+												<option>Second option</option>
+												<option>And another one</option>
+											</select>
+										</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">ZIP</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="selector1" class="col-sm-2 control-label">Country</label>
+										<div class="col-sm-8">
+											<select name="selector1" id="selector1" class="select form-control" placeholder="">
+												<option selected>United States</option>
+												<option>First option</option>
+												<option>Second option</option>
+												<option>And another one</option>
+											</select>
+										</div>
+								</div>
+								<br>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Home Phone</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Work Phone</label>
+									<div class="col-sm-8">
+										<div class="input-group">
+											<input type="text" class="form-control">
+											<div class="input-group-addon">Ext. <input type="text" class="form-control" style="width: 60px;"></div>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Cell Phone</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Email</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								
+								
+								
+							</form>
+						</div>
+						<div class="tab-pane" id="bordered-row">
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Last Name</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">First Name</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Middle Name</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Nickname</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Date of birth</label>
+									<div class="col-sm-8">
+										<div class="input-group">
+											<input type="text" class="form-control">
+											<span class="input-group-addon">MMDDYYYY</span>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Age</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<br>
+								<div class="form-group">
+									<label for="checkbox" class="col-sm-2 control-label">Address</label>
+									<div class="col-sm-8">
+										<div class="checkbox block"><label><input type="checkbox"> Mother Address</label></div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Street</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Apt</label>
+									<div class="col-sm-8">
+										<div class="input-group">
+											<input type="text" class="form-control">
+											<span class="input-group-addon">ex. Apt 1017</span>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">City</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="selector1" class="col-sm-2 control-label">State</label>
+										<div class="col-sm-8">
+											<select name="selector1" id="selector1" class="select form-control" placeholder="">
+												<option selected></option>
+												<option>First option</option>
+												<option>Second option</option>
+												<option>And another one</option>
+											</select>
+										</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">ZIP</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="selector1" class="col-sm-2 control-label">Country</label>
+										<div class="col-sm-8">
+											<select name="selector1" id="selector1" class="select form-control" placeholder="">
+												<option selected>United States</option>
+												<option>First option</option>
+												<option>Second option</option>
+												<option>And another one</option>
+											</select>
+										</div>
+								</div>
+								<br>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Home Phone</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Work Phone</label>
+									<div class="col-sm-8">
+										<div class="input-group">
+											<input type="text" class="form-control">
+											<div class="input-group-addon">Ext. <input type="text" class="form-control" style="width: 60px;"></div>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Cell Phone</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Email</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+
+
+
+							</form>
+						</div>
+
+						<div class="tab-pane" id="tabular-form">
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Last Name</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">First Name</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Middle Name</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Date of birth</label>
+									<div class="col-sm-8">
+										<div class="input-group">
+											<input type="text" class="form-control">
+											<span class="input-group-addon">MMDDYYYY</span>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Age</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<br>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Home Phone</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Cell Phone</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">Relationship</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id="focusedinput" placeholder="">
+									</div>
+									<div class="col-sm-2">
+										<p class="help-block">Your help text!</p>
+									</div>
+								</div>
+
+
+
+							</form>
+						</div>
+						
+					</div>
+				</div>
+				<div class="panel-footer">
+					<div class="row">
+						<div class="col-sm-8 col-sm-offset-2">
+							<button class="btn-raised btn-primary btn">Submit</button>
+							<button class="btn-default btn">Cancel</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+                            </div> <!-- .container-fluid -->
+                        </div> <!-- #page-content -->
+                    </div>
+                    <footer role="contentinfo">
+    <div class="clearfix">
+        <ul class="list-unstyled list-inline pull-left">
+            <li><h6 style="margin: 0;">&copy; 2016 MADAMS</h6></li>
+        </ul>
+    </div>
+</footer>
+
+                </div>
+                <div class="extrabar-underlay"></div>
+            </div>
+        </div>
+
+        <div class="infobar-wrapper scroll-pane">
+            <div class="infobar scroll-content">
+
+    
+        <!-- <ul class="nav nav-tabs material-nav-tabs stretch-tabs icon-tabs">
+            <li ><a href="#tab-7-2" data-toggle="tab">
+                <i class="material-icons">settings</i>
+            </a></li>
+        </ul> -->
+    
+
+    <div class="tab-content">
+        
+        <div class="tab-pane active" id="tab-7-2">
+
+            <div class="widget">
+                <!-- <div class="widget-heading"><i class="material-icons">settings</i>&nbsp;Toolbar</div> -->
+                <div class="widget-body">
+                    <ul class="timeline">
+                        <li class="timeline-purple">
+                            <div class="timeline-icon"><i class="material-icons">folder</i></div>
+                            <div class="timeline-body">
+                                <div class="timeline-header">
+                                    <a href=""><span class="author">Action #1</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-primary">
+                            <div class="timeline-icon"><span style="font-size:11px;">M</span> <i class="material-icons" style="font-size:12px;margin-left:-5px;margin-top:-12px;">exposure_plus_1</i></div>
+                            <div class="timeline-body">
+                                <div class="timeline-header">
+                                    <a href=""><span class="author">Action #2</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-green">
+                            <div class="timeline-icon"><span style="font-size:11px;">P</span> <i class="material-icons" style="font-size:12px;margin-left:-5px;margin-top:-12px;">exposure_plus_1</i></div>
+                            <div class="timeline-body">
+                                <div class="timeline-header">
+                                    <a href=""><span class="author">Action #3</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-danger">
+                            <div class="timeline-icon"><i class="material-icons">cancel</i></div>
+                            <div class="timeline-body">
+                                <div class="timeline-header">
+                                    <a href=""><span class="author">Action #4</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-sky">
+                            <div class="timeline-icon"><i class="material-icons">insert_drive_file</i></div>
+                            <div class="timeline-body">
+                                <div class="timeline-header">
+                                    <a href=""><span class="author">Action #5</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-orange">
+                            <div class="timeline-icon"><i class="material-icons">picture_as_pdf</i></div>
+                            <div class="timeline-body">
+                                <div class="timeline-header">
+                                    <a href=""><span class="author">Action #6</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-indigo">
+                            <div class="timeline-icon"><i class="material-icons">print</i></div>
+                            <div class="timeline-body">
+                                <div class="timeline-header">
+                                    <a href=""><span class="author">Action #7</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-brown">
+                            <div class="timeline-icon"><i class="material-icons">insert_drive_file</i></div>
+                            <div class="timeline-body">
+                                <div class="timeline-header">
+                                    <a href=""><span class="author">Action #8</span></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+        </div>
+
+
+    <!-- Load site level scripts -->
+
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script> -->
+
+<script src="assets/js/jquery-1.10.2.min.js"></script> 							<!-- Load jQuery -->
+<script src="assets/js/jqueryui-1.10.3.min.js"></script> 							<!-- Load jQueryUI -->
+<script src="assets/js/bootstrap.min.js"></script> 								<!-- Load Bootstrap -->
+<script src="assets/js/enquire.min.js"></script> 									<!-- Load Enquire -->
+
+<script src="assets/plugins/velocityjs/velocity.min.js"></script>					<!-- Load Velocity for Animated Content -->
+<script src="assets/plugins/velocityjs/velocity.ui.min.js"></script>
+
+<script src="assets/plugins/progress-skylo/skylo.js"></script> 		<!-- Skylo -->
+
+<script src="assets/plugins/wijets/wijets.js"></script>     						<!-- Wijet -->
+
+<script src="assets/plugins/sparklines/jquery.sparklines.min.js"></script> 			 <!-- Sparkline -->
+
+<script src="assets/plugins/codeprettifier/prettify.js"></script> 				<!-- Code Prettifier  -->
+
+<script src="assets/plugins/bootstrap-tabdrop/js/bootstrap-tabdrop.js"></script>  <!-- Bootstrap Tabdrop -->
+
+<script src="assets/plugins/nanoScroller/js/jquery.nanoscroller.min.js"></script> <!-- nano scroller -->
+
+<script src="assets/plugins/dropdown.js/jquery.dropdown.js"></script> <!-- Fancy Dropdowns -->
+<script src="assets/plugins/bootstrap-material-design/js/material.min.js"></script> <!-- Bootstrap Material -->
+<script src="assets/plugins/bootstrap-material-design/js/ripples.min.js"></script> <!-- Bootstrap Material -->
+
+<script src="assets/js/application.js"></script>
+<script src="assets/demo/demo.js"></script>
+<script src="assets/demo/demo-switcher.js"></script>
+
+<!-- End loading site level scripts -->
+    
+    <!-- Load page level scripts-->
+    
+
+    <!-- End loading page level scripts-->
+
+    </body>
+</html>
