@@ -554,11 +554,11 @@ public final class contact_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<!-- IE required polyfills, in this exact order -->\r\n");
       out.write("<script src=\"https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.0/es6-shim.min.js\"></script>\r\n");
       out.write("<script src=\"https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.20/system-polyfills.js\"></script>\r\n");
-      out.write("<script src=\"https://npmcdn.com/angular2@2.0.0-beta.12/es6/dev/src/testing/shims_for_IE.js\"></script>   \r\n");
+      out.write("<script src=\"https://unpkg.com/angular2@2.0.0-beta.12/es6/dev/src/testing/shims_for_IE.js\"></script>   \r\n");
       out.write("\r\n");
       out.write("<script src=\"https://code.angularjs.org/2.0.0-beta.12/angular2-polyfills.js\"></script>\r\n");
       out.write("<script src=\"https://code.angularjs.org/tools/system.js\"></script>\r\n");
-      out.write("<script src=\"https://npmcdn.com/typescript@1.8.9/lib/typescript.js\"></script>\r\n");
+      out.write("<script src=\"https://unpkg.com/typescript@1.8.9/lib/typescript.js\"></script>\r\n");
       out.write("<script src=\"https://code.angularjs.org/2.0.0-beta.12/Rx.js\"></script>\r\n");
       out.write("<script src=\"https://code.angularjs.org/2.0.0-beta.12/angular2.dev.js\"></script>\r\n");
       out.write("<script src=\"https://code.angularjs.org/2.0.0-beta.12/http.dev.js\"></script>\r\n");
